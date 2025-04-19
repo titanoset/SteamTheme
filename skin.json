@@ -232,6 +232,30 @@
                 "no": {}
             }
         },
+        "StyledURLPages": {
+            "description": "Stylisation of the URL pages like the community page, profile, etc.",
+            "default": "yes",
+            "tab": "Experimental",
+            "values": {
+                "yes": {
+                    "TargetCss": { 
+                        "affects": [
+                            "https://steamcommunity.com(/.*)?",
+                            "https://*.steamcommunity.com(/.*)?"
+                        ], 
+                        "src": "options/experimental/styledURLPages.css" 
+                    },
+                    "TargetJs": { 
+                        "affects": [
+                            "https://steamcommunity.com(/.*)?",
+                            "https://*.steamcommunity.com(/.*)?"
+                        ], 
+                        "src": "options/experimental/styledURLPages.js" 
+                    }
+                },
+                "no": {}
+            }        
+        },
         "Store Gamepage": {
             "description": "Store Gamepage from the concept",
             "default": "no",

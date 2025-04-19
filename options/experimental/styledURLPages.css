@@ -1,0 +1,46 @@
+body {
+    background-color: rgb(var(--background)) !important;
+}
+
+.community_home_title {
+    text-align: center !important;
+    font-weight: normal;
+    font-size: 26px;
+    color: rgb(var(--accent-1)) !important;
+    font-family: "Motiva Sans", Sans-serif;
+    font-weight: normal;
+    text-align: left;
+}
+
+.community_home_subtitle {
+    text-align: center !important;
+    font-weight: normal;
+    font-size: 17px;
+    color: rgb(var(--accent-2)) !important;
+    font-family: Arial, Sans-Serif;
+    text-align: left;
+    padding-top: 5px;
+}
+
+.apphub_background { 
+    background-color: rgb(var(--color-2)) !important;
+    background-image: none !important;
+    border-radius: 8px;
+}
+
+.community_home_header {
+    position: relative;
+    max-width: 948px;
+    margin: 0px auto;
+    padding-top: 20px;
+    padding-bottom: 0;
+    padding-left: 1%;
+    padding-right: 1%;
+    text-align: left;
+    font-family: "Motiva Sans", Sans-serif;
+    font-weight: normal;
+}
+
+.footer_content {
+    display: none !important;
+}
