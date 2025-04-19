@@ -1,0 +1,7 @@
+.userpannel-buttoncontainer ._1TdaAqMFadi0UTqilrkelR {
+    display: none;
+}
+
+.userpannel-buttoncontainer > .tool-tip-source.Focusable:nth-child(4) {
+    display: none !important;
+}
