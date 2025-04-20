@@ -44,3 +44,12 @@ body {
 .footer_content {
     display: none !important;
 }
+
+.community_home_app_shortcuts {
+    margin-top: 15px;
+    width: 66%;
+    border-radius: 8px;
+    background: rgb(var(--color-3)) !important;
+    border: 1px solid transparent;
+    float: left;
+}
